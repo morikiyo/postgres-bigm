@@ -12,6 +12,7 @@ RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
 #
 # ファイルをダウンロードしてチェックサムの一致を確認しておく
 # https://pgbigm.osdn.jp/
+# https://github.com/pgbigm/pg_bigm
 
 WORKDIR /tmp
 COPY ./pg_bigm-1.2-20200228.tar.gz .
